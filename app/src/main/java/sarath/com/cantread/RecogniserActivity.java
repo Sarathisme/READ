@@ -140,7 +140,8 @@ public class RecogniserActivity extends AppCompatActivity implements View.OnClic
                 if(analysedTextView.getText().length() != 0) {
                     Intent sendIntent = new Intent();
                     sendIntent.setAction(Intent.ACTION_SEND);
-                    sendIntent.putExtra(Intent.EXTRA_TEXT, analysedTextView.getText());
+                    sendIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, analysedTextView.getText().toString());
+                    sendIntent.putExtra(Intent.EXTRA_TEXT, analysedTextView.getText().toString());
                     sendIntent.setType("text/plain");
                     startActivity(sendIntent);
                 } else {

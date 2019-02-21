@@ -137,7 +137,11 @@ import static java.util.Objects.*;
                 User user = mUsers.get(position);
                 viewModel.deleteActivity(user.getUserID(), user.getTimestamp());
                 mUsers.remove(position);
-                Objects.requireNonNull(getContext()).getContentResolver().delete(Uri.parse(user.getImageLocalUrl()), null, null);
+                try {
+                    Objects.requireNonNull(getContext()).getContentResolver().delete(Uri.parse(user.getImageLocalUrl()), null, null);
+                }catch (NullPointerException ignored) {
+
+                }
                 adapter.notifyItemRemoved(position);
 
                 Snackbar.make(view, "Deleted", Snackbar.LENGTH_SHORT).show();
