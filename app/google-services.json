@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "422056180801",
+    "firebase_url": "https://cantread-1550193488817.firebaseio.com",
+    "project_id": "cantread-1550193488817",
+    "storage_bucket": "cantread-1550193488817.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422056180801:android:788b8c9542c418fc",
+        "android_client_info": {
+          "package_name": "sarath.com.cantread"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422056180801-28lmo6rhr938p731ddksl41umrqbkpoo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sarath.com.cantread",
+            "certificate_hash": "e31101728d836289c261361db4a8c1352d242ffc"
+          }
+        },
+        {
+          "client_id": "422056180801-6u51nks5t8hpbmf9e4j2nbslr01ab16m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsbA1mhp3ln_a-nU-Md_Urg9GRKg6OsFY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422056180801-6u51nks5t8hpbmf9e4j2nbslr01ab16m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

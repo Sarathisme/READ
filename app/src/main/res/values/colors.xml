@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#177CB7</color>
+    <color name="colorPrimaryDark">#1C5675</color>
+    <color name="colorAccent">#F5B711</color>
+    <color name="splash_background">#f0f0f0</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="background_gray">#FFFFFF</color>
+    <color name="pref_header">#EB1960</color>
+    <color name="star_color_fill">#F5B711</color>
+</resources>
